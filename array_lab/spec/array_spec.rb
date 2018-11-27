@@ -7,7 +7,6 @@ describe 'working through various arrays' do
 
     it 'the first entry should equal jack russell' do
       expect(dog_breeds.first).to eql 'jack russell'
-      # puts dog_breeds.methods
     end
 
     it 'the last entry should equal greyhound' do
